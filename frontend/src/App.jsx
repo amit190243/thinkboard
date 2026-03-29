@@ -7,8 +7,8 @@ import toast from "react-hot-toast";
 
 const App = () => {
   return (
-    <div>
-      <button onClick={() => toast.success("Success!")}>click me</button>
+    <div data-theme="coffe" className="min-h-screen">
+      {/* <button onClick={() => toast.success("Success!")}>click me</button> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
